@@ -1,19 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/vendor.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="assets/css/vendor.css" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Login</title>
+  </head>
+  <body class="bg-light">
 
-  <title>LianetNails</title>
-</head>
-
-<body>
 
   <!-- header -->
-  <header class="header header-absolute">
+  <header class="header">
     <div class="py-1 bg-dark">
       <div class="container">
         <div class="row">
@@ -303,376 +302,206 @@
     </div>
   </header>
 
-  <!-- swiper -->
-  <div class="swiper-container">
-    <div class="swiper-wrapper">
-
-      <div class="swiper-slide">
-        <div class="image" style="background-image:url(assets/images/demo/background2.jpg)"></div>
-        <div class="container">
-          <div class="row align-items-end vh-100">
-            <div class="col-lg-8 text-white" data-swiper-parallax-x="-100%">
-              <span class="eyebrow">Todos los Servicios</span>
-              <h1 class="mb-3 text-uppercase">Tiempo de Belleza</h1>
-              <a href="booking.html" class="btn btn-outline-white">Sacar Cita</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="image image--overlay" style="background-image:url(assets/images/demo/background1.jpg)"></div>
-        <div class="container">
-          <div class="row align-items-end vh-100">
-            <div class="col-lg-8 text-white" data-swiper-parallax-x="-100%">
-              <span class="eyebrow">Todos los servicios</span>
-              <h1>Nuevas profesionales</h1>
-              <a href="listing-full.html" class="btn btn-outline-white">Sacar cita</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <div class="swiper-footer">
+  
+    <!-- login -->
+    <section>
       <div class="container">
-        <div class="row justify-content-end align-items-center">
-          <div class="col-lg-6 text-right">
-            <div class="swiper-navigation">
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-next"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- categories -->
-  <section class="py-1">
-    <div class="container-full">
-      <div class="row gutter-1">
-        <div class="col-md-6">
-          <div class="card card-tile">
-            <figure class="card-image equal vh-75">
-              <span class="image" style="background-image: url(assets/images/demo/image-2.jpg)"></span>
-            </figure>
-            <div class="card-footer p-lg-5">
-              <div class="bg-white d-inline-block p-3">
-                <h2 class="card-title"><span class="d-block text-gray">Corte de cabello</span> En Solo 20 minutos</h2>
-                <a href="" class="underlined">Reservar</a>
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <div class="card boxed">
+              <div class="card-header">
+                <ul class="nav nav-tabs nav-fill card-header-tabs lavalamp" id="component-1" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#component-1-1" role="tab" aria-controls="component-1-1" aria-selected="true">Iniciar sesion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#component-1-2" role="tab" aria-controls="component-1-2" aria-selected="false">Crear Cuenta</a>
+                  </li>
+                </ul>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card card-tile">
-            <figure class="card-image equal vh-75">
-              <span class="image" style="background-image: url(assets/images/demo/image-3.jpg)"></span>
-            </figure>
-            <div class="card-footer p-lg-5">
-              <div class="bg-white d-inline-block p-3">
-                <h2 class="card-title"><span class="d-block text-gray">Extenciones</span> Catalogo para escoger</h2>
-                <a href="" class="underlined">Reservar</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- carousel -->
-  <section class="py-lg-0 no-overflow">
-    <div class="container">
-      <div class="row align-items-center gutter-1">
-        <div class="col-lg-3">
-          <div class="pr-lg-5">
-            <div class="level-1">
-              <span class="eyebrow text-muted">Servicios</span>
-              <h2>Mas solicitados</h2>
-              <div class="nav nav-tabs flex-lg-column mt-md-3 lavalamp">
-                <a class="nav-item nav-link active" data-filter="1">Mujeres</a>
-                <a class="nav-item nav-link" data-filter="2">Hombres</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-9">
-          <div class="row gutter-2 filtr-container">
-
-            <!-- women -->
-            <div class="col-12 filtr-item" data-category="1" data-sort="value">
-              <div class="owl-carousel owl-carousel--mask visible" data-items="[2,2,2,1]" data-loop="true"
-                data-margin="10" data-nav="true">
-                <div class="card card-product">
-                  <figure class="card-image">
-                    <a href="#!" class="action"><i class="icon-heart"></i></a>
-                    <a href="#!">
-                      <img src="assets/images/demo/pies 1.jpg" alt="Image">
-                      <img src="assets/images/demo/pies 2.jpg" alt="Image">
-                    </a>
-                  </figure>
-                  <a href="" class="card-body">
-                    <h3 class="card-title">Pies</h3>
-                    <span class="price">$19.00</span>
-                  </a>
-                </div>
-                <div class="card card-product">
-                  <figure class="card-image">
-                    <a href="#!" class="action"><i class="icon-heart"></i></a>
-                    <a href="#!">
-                      <img src="assets/images/demo/pelado 1.jpg" alt="Image">
-                      <img src="assets/images/demo/pelado 2.jpg" alt="Image">
-                    </a>
-                  </figure>
-                  <a href="" class="card-body">
-                    <h3 class="card-title">Pelado</h3>
-                    <span class="price">$29.00</span>
-                  </a>
-                </div>
-                <div class="card card-product">
-                  <figure class="card-image">
-                    <a href="#!" class="action"><i class="icon-heart"></i></a>
-                    <a href="#!">
-                      <img src="assets/images/demo/masaje 1.jpg" alt="Image">
-                      <img src="assets/images/demo/masaje 2.jpg" alt="Image">
-                    </a>
-                  </figure>
-                  <a href="" class="card-body">
-                    <h3 class="card-title">Masaje</h3>
-                    <span class="price">$29.00</span>
-                  </a>
+              <div class="card-body">
+                <div class="tab-content" id="component-1-content">
+                  <div class="tab-pane fade show active" id="component-1-1" role="tabpanel" aria-labelledby="component-1-1">
+                    <div class="row gutter-2">
+                      <div class="col-12">
+                        <fieldset>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="form-label-group">
+                                <input type="text" id="inputEmail" class="form-control form-control-lg" placeholder="Email address" required="">
+                                <label for="inputEmail">Correo Electronico</label>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="form-label-group">
+                                <input type="text" id="inputPassword" class="form-control form-control-lg" placeholder="Password" required="">
+                                <label for="inputPassword">Contraseña</label>
+                              </div>
+                            </div>
+                          </div>
+                        </fieldset>
+                      </div>
+                      <div class="col-12 text-center">
+                        <a href="" class="underline fs-14">Olvide contraseña ?</a>
+                      </div>
+                      <div class="col-12">
+                        <a href="" class="btn btn-primary btn-block">Iniciar sesion</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="component-1-2" role="tabpanel" aria-labelledby="component-1-2">
+                    <div class="row gutter-2">
+                      <div class="col-12">
+                        <fieldset>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="form-label-group">
+                                <input type="text" id="inputName2" class="form-control form-control-lg" placeholder="First name" required="">
+                                <label for="inputName">Nombre</label>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="form-label-group">
+                                <input type="text" id="inputEmail2" class="form-control form-control-lg" placeholder="Email address" required="">
+                                <label for="inputEmail">Correo</label>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="form-label-group">
+                                <input type="text" id="inputPassword2" class="form-control form-control-lg" placeholder="Password" required="">
+                                <label for="inputPassword">Contraseña</label>
+                              </div>
+                            </div>
+                          </div>
+                        </fieldset>
+                      </div>
+                      <div class="col-12">
+                        <span class="label d-block">Genero</span>
+                        <div class="d-block">
+                          <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline1">Hombre</label>
+                          </div>
+                          <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline2">Mujer</label>
+                          </div>
+                        </div>
+                        <small class="text-muted lh-sm">Información no será compartida.</small>
+                        <div class="custom-control custom-checkbox mt-1">
+                          <input type="checkbox" id="customCheckbox1" name="customCheckbox1" class="custom-control-input">
+                          <label class="custom-control-label text-muted" for="customCheckbox1">Si, estoy de acuerdo <a href="" class="underline">Términos y Condiciones</a></label>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <a href="" class="btn btn-primary btn-block">Crear Cuenta</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-
-            <!-- men -->
-            <div class="col-12 filtr-item filteredOut" data-category="2" data-sort="value">
-              <div class="owl-carousel owl-carousel--mask visible" data-items="[2,2,2,1]" data-loop="true"
-                data-margin="10" data-nav="true">
-                <div class="card card-product">
-                  <figure class="card-image">
-                    <a href="#!" class="action"><i class="icon-heart"></i></a>
-                    <a href="#!">
-                      <img src="assets/images/demo/pelado 1.jpg" alt="Image">
-                      <img src="assets/images/demo/pelado 2.jpg" alt="Image">
-                    </a>
-                  </figure>
-                  <a href="" class="card-body">
-                    <h3 class="card-title">Pelado</h3>
-                    <span class="price">$29.00</span>
-                  </a>
-                </div>
-                <div class="card card-product">
-                  <figure class="card-image">
-                    <a href="#!" class="action"><i class="icon-heart"></i></a>
-                    <a href="#!">
-                      <img src="assets/images/demo/masaje 1.jpg" alt="Image">
-                      <img src="assets/images/demo/masaje 2.jpg" alt="Image">
-                    </a>
-                  </figure>
-                  <a href="" class="card-body">
-                    <h3 class="card-title">Masaje</h3>
-                    <span class="price">$29.00</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-
-
           </div>
-
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
 
-  <!-- categories -->
-  <section>
-    <div class="container">
-      <div class="row align-items-end">
-        <div class="col-8 col-md-6">
-          <span class="eyebrow text-muted">Todos profesionales</span>
-          <h2>Los mas solicitados</h2>
-        </div>
-        <div class="col-4 col-md-6 text-right">
-          <a href="" class="underlined">View More</a>
-        </div>
-      </div>
-      <div class="row gutter-1">
-        <div class="col-6 col-lg-3">
-          <a href="">
-            <figure class="category category--alt">
-              <div class="equal"><span class="image"
-                  style="background-image: url(assets/images/demo/product-5.jpg)"></span></div>
-              <figcaption>Lianet</figcaption>
-            </figure>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="">
-            <figure class="category category--alt">
-              <div class="equal"><span class="image"
-                  style="background-image: url(assets/images/demo/product-6.jpg)"></span></div>
-              <figcaption>Mila</figcaption>
-            </figure>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="">
-            <figure class="category category--alt">
-              <div class="equal"><span class="image"
-                  style="background-image: url(assets/images/demo/product-3.jpg)"></span></div>
-              <figcaption>Elizabeth</figcaption>
-            </figure>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="">
-            <figure class="category category--alt">
-              <div class="equal"><span class="image"
-                  style="background-image: url(assets/images/demo/product-4.jpg)"></span></div>
-              <figcaption>Aaron</figcaption>
-            </figure>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="">
-            <figure class="category category--alt">
-              <div class="equal"><span class="image"
-                  style="background-image: url(assets/images/demo/product-1.jpg)"></span></div>
-              <figcaption>Sofia</figcaption>
-            </figure>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="">
-            <figure class="category category--alt">
-              <div class="equal"><span class="image"
-                  style="background-image: url(assets/images/demo/product-2.jpg)"></span></div>
-              <figcaption>Lola</figcaption>
-            </figure>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="">
-            <figure class="category category--alt">
-              <div class="equal"><span class="image"
-                  style="background-image: url(assets/images/demo/category-2.jpg)"></span></div>
-              <figcaption>Ruth</figcaption>
-            </figure>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="">
-            <figure class="category category--alt">
-              <div class="equal"><span class="image"
-                  style="background-image: url(assets/images/demo/category-1.jpg)"></span></div>
-              <figcaption>Claudia</figcaption>
-            </figure>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+    <!-- footer -->
+<footer class="bg-dark pb-0 text-white">
+  <div class="container">
+    <div class="row justify-content-md-between gutter-2">
 
-
-  <!-- footer -->
-  <footer class="bg-dark pb-0 text-white">
-    <div class="container">
-      <div class="row justify-content-md-between gutter-2">
-
-        <!-- menu -->
-        <div class="order-1 col-md-8 col-lg-4">
-          <div class="row">
-            <div class="col">
-              <h4 class="eyebrow mb-1">Lianet’s Nails and Beauty</h4>
-              <ul class="menu-list">
-                <li class="menu-list-item"><a href="" class="menu-list-link">Manicuris</a></li>
-                <li class="menu-list-item"><a href="" class="menu-list-link">Peluqueros</a></li>
-                <li class="menu-list-item"><a href="" class="menu-list-link">Estilistas</a></li>
-                <li class="menu-list-item"><a href="" class="menu-list-link">Esteticistas</a></li>
-                <li class="menu-list-item"><a href="" class="menu-list-link">Pedicuristas</a></li>
-                <li class="menu-list-item"><a href="" class="menu-list-link">Maquilladores</a></li>
-                <li class="menu-list-item"><a href="" class="menu-list-link">Cosmetólogos</a></li>
-                <li class="menu-list-item"><a href="" class="menu-list-link">Masajistas</a></li>
-              </ul>
-            </div>
-            <div class="col">
-              <h4 class="eyebrow mb-1">Ayuda</h4>
-              <ul class="menu-list">
-                <li class="menu-list-item"><a href="" class="menu-list-link">Vamos a Domicilio</a></li>
-                <li class="menu-list-item"><a href="" class="menu-list-link">Servicios disponibles</a></li>
-                <li class="menu-list-item"><a href="" class="menu-list-link">Precios</a></li>
-                <li class="menu-list-item"><a href="" class="menu-list-link">Preguntas frecuentes</a></li>
-              </ul>
-            </div>
+      <!-- menu -->
+      <div class="order-1 col-md-8 col-lg-4">
+        <div class="row">
+          <div class="col">
+            <h4 class="eyebrow mb-1">Lianet’s Nails and Beauty</h4>
+            <ul class="menu-list">
+              <li class="menu-list-item"><a href="" class="menu-list-link">Manicuris</a></li>
+              <li class="menu-list-item"><a href="" class="menu-list-link">Peluqueros</a></li>
+              <li class="menu-list-item"><a href="" class="menu-list-link">Estilistas</a></li>
+              <li class="menu-list-item"><a href="" class="menu-list-link">Esteticistas</a></li>
+              <li class="menu-list-item"><a href="" class="menu-list-link">Pedicuristas</a></li>
+              <li class="menu-list-item"><a href="" class="menu-list-link">Maquilladores</a></li>
+              <li class="menu-list-item"><a href="" class="menu-list-link">Cosmetólogos</a></li>
+              <li class="menu-list-item"><a href="" class="menu-list-link">Masajistas</a></li>
+            </ul>
           </div>
-        </div>
-
-        <!-- subscribe -->
-        <div class="order-2 order-md-3 order-lg-2 col-md-8 col-lg-4">
-          <h4 class="eyebrow mb-1">Subscribete para recibir Anuncios y Descuentos</h4>
-          <div class="input-combined mb-2">
-            <input type="text" class="form-control" placeholder="Email" aria-label="Email"
-              aria-describedby="button-addon2">
-            <button class="btn btn-white" type="button" id="button-addon2">Subscribete</button>
-            <span class="input-combined_indicator"></span>
-          </div>
-          <ul class="list list--horizontal">
-            <li><a href="#!" class="text-hover-facebook"><i class="fs-28 icon-facebook-square-brands"></i></a></li>
-            <li>
-              <a href="https://www.instagram.com/lianet_nailsstudio/" target="_blank" class="text-hover-instagram">
-                <i class="fs-28 icon-instagram-square-brands"></i>
-              </a>
-            </li>
-            <li><a href="#!" class="text-hover-twitter"><i class="fs-28 icon-twitter-square-brands"></i></a></li>
-            <li><a href="#!" class="text-hover-pinterest"><i class="fs-28 icon-pinterest-square-brands"></i></a></li>
-          </ul>
-        </div>
-
-        <!-- settings -->
-        <div class="order-3 order-md-2 order-lg-3 col-md-4 col-lg-3">
-          <h4 class="eyebrow mb-1">Donde nos encontramos</h4>
-
-          <div class="select-frame">
-            1420 E Watered Ave, Suite 104 Tampa, Fl 33604
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="bg-transparent mt-8 py-2">
-      <div class="container">
-        <div class="row align-items-center gutter-1">
-          <div class="col-md-8">
-            <p class="small text-muted">&copy; 2025 LIANET</p>.
-          </div>
-          <div class="col-md-4 text-md-right text-muted">
-            <ul class="list list--horizontal list--separated">
-              <li>
-                <a class="small underline" href="#!">Politica de Privacidad</a>
-              </li>
-              <li>
-                <a class="small underline" href="#!">Términos de Uso</a>
-              </li>
+          <div class="col">
+            <h4 class="eyebrow mb-1">Ayuda</h4>
+            <ul class="menu-list">
+              <li class="menu-list-item"><a href="" class="menu-list-link">Vamos a Domicilio</a></li>
+              <li class="menu-list-item"><a href="" class="menu-list-link">Servicios disponibles</a></li>
+              <li class="menu-list-item"><a href="" class="menu-list-link">Precios</a></li>
+              <li class="menu-list-item"><a href="" class="menu-list-link">Preguntas frecuentes</a></li>
             </ul>
           </div>
         </div>
       </div>
+
+      <!-- subscribe -->
+      <div class="order-2 order-md-3 order-lg-2 col-md-8 col-lg-4">
+        <h4 class="eyebrow mb-1">Subscribete para recibir Anuncios y Descuentos</h4>
+        <div class="input-combined mb-2">
+          <input type="text" class="form-control" placeholder="Email" aria-label="Email"
+            aria-describedby="button-addon2">
+          <button class="btn btn-white" type="button" id="button-addon2">Subscribete</button>
+          <span class="input-combined_indicator"></span>
+        </div>
+        <ul class="list list--horizontal">
+          <li><a href="#!" class="text-hover-facebook"><i class="fs-28 icon-facebook-square-brands"></i></a></li>
+          <li>
+            <a href="https://www.instagram.com/lianet_nailsstudio/" target="_blank" class="text-hover-instagram">
+              <i class="fs-28 icon-instagram-square-brands"></i>
+            </a>
+          </li>
+          <li><a href="#!" class="text-hover-twitter"><i class="fs-28 icon-twitter-square-brands"></i></a></li>
+          <li><a href="#!" class="text-hover-pinterest"><i class="fs-28 icon-pinterest-square-brands"></i></a></li>
+        </ul>
+      </div>
+
+      <!-- settings -->
+      <div class="order-3 order-md-2 order-lg-3 col-md-4 col-lg-3">
+        <h4 class="eyebrow mb-1">Donde nos encontramos</h4>
+
+        <div class="select-frame">
+          1420 E Watered Ave, Suite 104 Tampa, Fl 33604
+        </div>
+
+      </div>
     </div>
-  </footer>
+  </div>
+
+  <div class="bg-transparent mt-8 py-2">
+    <div class="container">
+      <div class="row align-items-center gutter-1">
+        <div class="col-md-8">
+          <p class="small text-muted">&copy; 2025 LIANET</p>.
+        </div>
+        <div class="col-md-4 text-md-right text-muted">
+          <ul class="list list--horizontal list--separated">
+            <li>
+              <a class="small underline" href="#!">Politica de Privacidad</a>
+            </li>
+            <li>
+              <a class="small underline" href="#!">Términos de Uso</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 
 
-
-  <script src="assets/js/vendor.min.js"></script>
-  <script src="assets/js/app.js"></script>
-</body>
-
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
 </html>

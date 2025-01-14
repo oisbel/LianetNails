@@ -8,6 +8,13 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 
   <title>LianetNails</title>
+  <style>
+    
+        section {
+            padding: 20px 0;
+            border-bottom: 1px solid #ccc;
+        }
+  </style>
 </head>
 
 <body>
@@ -184,91 +191,91 @@
         <div class="collapse navbar-collapse order-5 order-lg-3" id="navbarMenu2">
           <ul class="navbar-nav ml-auto position-relative">
 
-            <!-- search -->
-            <li class="nav-item dropdown dropdown-md dropdown-hover">
-              <a class="nav-icon dropdown-toggle" id="navbarDropdown-4" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                <i class="icon-search d-none d-lg-inline-block"></i>
-                <span class="d-inline-block d-lg-none">Buscar</span>
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown-4">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="searchForm" placeholder="Buscar servicios">
-                </div>
+           <!-- search -->
+           <li class="nav-item dropdown dropdown-md dropdown-hover">
+            <a class="nav-icon dropdown-toggle" id="navbarDropdown-4" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="icon-search d-none d-lg-inline-block"></i>
+              <span class="d-inline-block d-lg-none">Buscar</span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown-4">
+              <div class="form-group">
+                <input type="text" class="form-control" id="searchForm" placeholder="Buscar servicios">
               </div>
-            </li>
+            </div>
+          </li>
 
-            <!-- localisation -->
-            <li class="d-none d-lg-inline nav-item dropdown dropdown-md dropdown-hover">
-              <a class="nav-icon" id="navbarDropdown-5" role="button" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false"><i class="icon-globe"></i></a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown-5">
-                <fieldset>
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="select-frame">
-                        <select class="custom-select custom-select-lg" id="countrySelect1">
-                          <option value="1">Estados Unidos</option>
-                          <option value="2">España</option>
-                        </select>
-                      </div>
+          <!-- localisation -->
+          <li class="d-none d-lg-inline nav-item dropdown dropdown-md dropdown-hover">
+            <a class="nav-icon" id="navbarDropdown-5" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false"><i class="icon-globe"></i></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown-5">
+              <fieldset>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="select-frame">
+                      <select class="custom-select custom-select-lg" id="countrySelect1">
+                        <option value="1">Estados Unidos</option>
+                        <option value="2">España</option>
+                      </select>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="select-frame">
-                        <select class="custom-select custom-select-lg" id="curencySelect1">
-                          <option value="1">USD</option>
-                          <option value="2">EUR</option>
-                        </select>
-                      </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="select-frame">
+                      <select class="custom-select custom-select-lg" id="curencySelect1">
+                        <option value="1">USD</option>
+                        <option value="2">EUR</option>
+                      </select>
                     </div>
                   </div>
-                </fieldset>
-              </div>
-            </li>
+                </div>
+              </fieldset>
+            </div>
+          </li>
 
-            <!-- user area -->
-            <li class="nav-item dropdown dropdown-md dropdown-hover">
-              <a class="nav-icon dropdown-toggle" id="navbarDropdown-6" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                <i class="icon-user d-none d-lg-inline-block"></i>
-                <span class="d-inline-block d-lg-none">Cuenta</span>
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown-6">
-                <div class="row gutter-2">
-                  <div class="col-12">
-                    <fieldset>
-                      <div class="row">
-                        <div class="col-12">
-                          <div class="form-label-group">
-                            <input type="text" id="inputName" class="form-control form-control-lg" placeholder="Name"
-                              required="" value="Dumitru">
-                            <label for="inputName">Nombre</label>
-                          </div>
+          <!-- user area -->
+          <li class="nav-item dropdown dropdown-md dropdown-hover">
+            <a class="nav-icon dropdown-toggle" id="navbarDropdown-6" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="icon-user d-none d-lg-inline-block"></i>
+              <span class="d-inline-block d-lg-none">Cuenta</span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown-6">
+              <div class="row gutter-2">
+                <div class="col-12">
+                  <fieldset>
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="form-label-group">
+                          <input type="text" id="inputName" class="form-control form-control-lg" placeholder="Name"
+                            required="" value="Dumitru">
+                          <label for="inputName">Nombre</label>
                         </div>
                       </div>
-                      <div class="row">
-                        <div class="col-12">
-                          <div class="form-label-group">
-                            <input type="text" id="inputSurname" class="form-control form-control-lg"
-                              placeholder="Surname" required="">
-                            <label for="inputSurname">Apellidos</label>
-                          </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="form-label-group">
+                          <input type="text" id="inputSurname" class="form-control form-control-lg"
+                            placeholder="Surname" required="">
+                          <label for="inputSurname">Apellidos</label>
                         </div>
                       </div>
-                    </fieldset>
-                  </div>
-                  <div class="col-12 text-center">
-                    <a href="" class="underline fs-14">Olvidó Contraseña ?</a>
-                  </div>
-                  <div class="col-12">
-                    <a href="login.html" class="btn btn-primary btn-block">Iniciar Sesión</a>
-                    <a href="login.html" class="btn btn-outline-secondary btn-block">Crear Cuenta</a>
-                  </div>
+                    </div>
+                  </fieldset>
+                </div>
+                <div class="col-12 text-center">
+                  <a href="" class="underline fs-14">Olvidó Contraseña ?</a>
+                </div>
+                <div class="col-12">
+                  <a href="login.html" class="btn btn-primary btn-block">Iniciar Sesión</a>
+                  <a href="login.html" class="btn btn-outline-secondary btn-block">Crear Cuenta</a>
                 </div>
               </div>
-            </li>
+            </div>
+          </li>
 
 
 
@@ -302,288 +309,99 @@
       </nav>
     </div>
   </header>
-
-  <!-- swiper -->
-  <div class="swiper-container">
-    <div class="swiper-wrapper">
-
-      <div class="swiper-slide">
-        <div class="image" style="background-image:url(assets/images/demo/background2.jpg)"></div>
-        <div class="container">
-          <div class="row align-items-end vh-100">
-            <div class="col-lg-8 text-white" data-swiper-parallax-x="-100%">
-              <span class="eyebrow">Todos los Servicios</span>
-              <h1 class="mb-3 text-uppercase">Tiempo de Belleza</h1>
-              <a href="booking.html" class="btn btn-outline-white">Sacar Cita</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="image image--overlay" style="background-image:url(assets/images/demo/background1.jpg)"></div>
-        <div class="container">
-          <div class="row align-items-end vh-100">
-            <div class="col-lg-8 text-white" data-swiper-parallax-x="-100%">
-              <span class="eyebrow">Todos los servicios</span>
-              <h1>Nuevas profesionales</h1>
-              <a href="listing-full.html" class="btn btn-outline-white">Sacar cita</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <div class="swiper-footer">
-      <div class="container">
-        <div class="row justify-content-end align-items-center">
-          <div class="col-lg-6 text-right">
-            <div class="swiper-navigation">
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-next"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- categories -->
-  <section class="py-1">
-    <div class="container-full">
-      <div class="row gutter-1">
-        <div class="col-md-6">
-          <div class="card card-tile">
-            <figure class="card-image equal vh-75">
-              <span class="image" style="background-image: url(assets/images/demo/image-2.jpg)"></span>
-            </figure>
-            <div class="card-footer p-lg-5">
-              <div class="bg-white d-inline-block p-3">
-                <h2 class="card-title"><span class="d-block text-gray">Corte de cabello</span> En Solo 20 minutos</h2>
-                <a href="" class="underlined">Reservar</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card card-tile">
-            <figure class="card-image equal vh-75">
-              <span class="image" style="background-image: url(assets/images/demo/image-3.jpg)"></span>
-            </figure>
-            <div class="card-footer p-lg-5">
-              <div class="bg-white d-inline-block p-3">
-                <h2 class="card-title"><span class="d-block text-gray">Extenciones</span> Catalogo para escoger</h2>
-                <a href="" class="underlined">Reservar</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- carousel -->
-  <section class="py-lg-0 no-overflow">
+  <h1 class="text-center">Lianet's Nails and Beauty</h1>
+  <div class="py-10">
     <div class="container">
-      <div class="row align-items-center gutter-1">
-        <div class="col-lg-3">
-          <div class="pr-lg-5">
-            <div class="level-1">
-              <span class="eyebrow text-muted">Servicios</span>
-              <h2>Mas solicitados</h2>
-              <div class="nav nav-tabs flex-lg-column mt-md-3 lavalamp">
-                <a class="nav-item nav-link active" data-filter="1">Mujeres</a>
-                <a class="nav-item nav-link" data-filter="2">Hombres</a>
-              </div>
-            </div>
-          </div>
+        <div class="row justify-content-between">
+
+            <!-- sidebar -->
+            <aside class="col-lg-3">
+                <div class="sticky-top">
+                    <ul id="toc" class="nav flex-column nav-accordion">
+                        <li class="nav-item">
+                            <a data-scroll class="nav-link" href="#manicure-clasico">Manicure Clásico</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-scroll class="nav-link" href="#manicure-en-gel">Manicure en Gel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-scroll class="nav-link" href="#diseños-personalizados">Diseños Personalizados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-scroll class="nav-link" href="#beneficios">Beneficios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-scroll class="nav-link" href="#mantenimiento">Mantenimiento y Cuidado</a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!-- content -->
+            <article class="col-lg-8 documentation">
+
+                <section id="manicure-clasico">
+                    <h2>Manicure Clásico</h2>
+                    <p>El manicure clásico es uno de los servicios más básicos pero esenciales para mantener unas uñas saludables. Este procedimiento incluye:</p>
+                    <ul>
+                        <li><b>Corte de uñas:</b> Se recortan las uñas para darles una forma uniforme.</li>
+                        <li><b>Lima y pulido:</b> Se lima y pule la superficie para dejarla suave.</li>
+                        <li><b>Masaje de manos:</b> Se realiza un masaje relajante con cremas hidratantes.</li>
+                    </ul>
+                    <p><b>Duración:</b> 30 minutos</p>
+                </section>
+
+                <section id="manicure-en-gel">
+                    <h2>Manicure en Gel</h2>
+                    <p>El manicure en gel es ideal para quienes buscan mayor duración. Este tipo de manicure utiliza esmaltes especiales que se curan bajo una lámpara UV para lograr una mayor resistencia.</p>
+                    <ul>
+                        <li><b>Aplicación de gel:</b> Se aplica una capa de gel que se seca con luz UV.</li>
+                        <li><b>Variedad de colores:</b> Se puede elegir entre una amplia gama de colores vibrantes.</li>
+                        <li><b>Durabilidad:</b> El esmalte dura más tiempo sin chips ni desconchones.</li>
+                    </ul>
+                    <p><b>Duración:</b> 45 minutos</p>
+                </section>
+
+                <section id="diseños-personalizados">
+                    <h2>Diseños Personalizados</h2>
+                    <p>Los diseños personalizados son perfectos para quienes quieren algo único. Los diseños pueden incluir detalles artísticos, como flores, figuras geométricas, y más.</p>
+                    <ul>
+                        <li><b>Diseños con dibujos:</b> Diseños pintados a mano, como flores o patrones abstractos.</li>
+                        <li><b>Decoraciones con piedras:</b> Adornos de cristales o piedras brillantes.</li>
+                        <li><b>Decoración en 3D:</b> Diseño de uñas con relieves y texturas.</li>
+                    </ul>
+                    <p><b>Duración:</b> 60 minutos</p>
+                </section>
+
+                <section id="beneficios">
+                    <h2>Beneficios del Manicure</h2>
+                    <p>Un manicure no solo mejora la apariencia de las uñas, sino que también ofrece diversos beneficios para la salud de tus manos:</p>
+                    <ul>
+                        <li><b>Mejora la circulación:</b> Los masajes y tratamientos estimulan la circulación sanguínea.</li>
+                        <li><b>Previene infecciones:</b> Un manicure bien realizado mantiene las uñas libres de hongos y bacterias.</li>
+                        <li><b>Hidrata la piel:</b> Los productos utilizados durante el procedimiento ayudan a mantener la piel suave e hidratada.</li>
+                        <li><b>Relaja:</b> Un manicure puede ser una experiencia relajante y terapéutica, reduciendo el estrés.</li>
+                    </ul>
+                </section>
+
+                <section id="mantenimiento">
+                    <h2>Mantenimiento y Cuidado</h2>
+                    <p>Para que tu manicure se mantenga perfecto por más tiempo, es importante seguir algunos consejos de mantenimiento:</p>
+                    <ul>
+                        <li><b>Hidratar las manos:</b> Mantén las manos y las uñas hidratadas con cremas especializadas.</li>
+                        <li><b>Evitar el contacto con productos abrasivos:</b> Trata de evitar el contacto directo con productos de limpieza agresivos.</li>
+                        <li><b>Realizar retoques periódicos:</b> Si utilizas esmalte en gel, es recomendable realizar un retoque cada 3 semanas.</li>
+                    </ul>
+                </section>
+
+            </article>
         </div>
-        <div class="col-lg-9">
-          <div class="row gutter-2 filtr-container">
-
-            <!-- women -->
-            <div class="col-12 filtr-item" data-category="1" data-sort="value">
-              <div class="owl-carousel owl-carousel--mask visible" data-items="[2,2,2,1]" data-loop="true"
-                data-margin="10" data-nav="true">
-                <div class="card card-product">
-                  <figure class="card-image">
-                    <a href="#!" class="action"><i class="icon-heart"></i></a>
-                    <a href="#!">
-                      <img src="assets/images/demo/pies 1.jpg" alt="Image">
-                      <img src="assets/images/demo/pies 2.jpg" alt="Image">
-                    </a>
-                  </figure>
-                  <a href="" class="card-body">
-                    <h3 class="card-title">Pies</h3>
-                    <span class="price">$19.00</span>
-                  </a>
-                </div>
-                <div class="card card-product">
-                  <figure class="card-image">
-                    <a href="#!" class="action"><i class="icon-heart"></i></a>
-                    <a href="#!">
-                      <img src="assets/images/demo/pelado 1.jpg" alt="Image">
-                      <img src="assets/images/demo/pelado 2.jpg" alt="Image">
-                    </a>
-                  </figure>
-                  <a href="" class="card-body">
-                    <h3 class="card-title">Pelado</h3>
-                    <span class="price">$29.00</span>
-                  </a>
-                </div>
-                <div class="card card-product">
-                  <figure class="card-image">
-                    <a href="#!" class="action"><i class="icon-heart"></i></a>
-                    <a href="#!">
-                      <img src="assets/images/demo/masaje 1.jpg" alt="Image">
-                      <img src="assets/images/demo/masaje 2.jpg" alt="Image">
-                    </a>
-                  </figure>
-                  <a href="" class="card-body">
-                    <h3 class="card-title">Masaje</h3>
-                    <span class="price">$29.00</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- men -->
-            <div class="col-12 filtr-item filteredOut" data-category="2" data-sort="value">
-              <div class="owl-carousel owl-carousel--mask visible" data-items="[2,2,2,1]" data-loop="true"
-                data-margin="10" data-nav="true">
-                <div class="card card-product">
-                  <figure class="card-image">
-                    <a href="#!" class="action"><i class="icon-heart"></i></a>
-                    <a href="#!">
-                      <img src="assets/images/demo/pelado 1.jpg" alt="Image">
-                      <img src="assets/images/demo/pelado 2.jpg" alt="Image">
-                    </a>
-                  </figure>
-                  <a href="" class="card-body">
-                    <h3 class="card-title">Pelado</h3>
-                    <span class="price">$29.00</span>
-                  </a>
-                </div>
-                <div class="card card-product">
-                  <figure class="card-image">
-                    <a href="#!" class="action"><i class="icon-heart"></i></a>
-                    <a href="#!">
-                      <img src="assets/images/demo/masaje 1.jpg" alt="Image">
-                      <img src="assets/images/demo/masaje 2.jpg" alt="Image">
-                    </a>
-                  </figure>
-                  <a href="" class="card-body">
-                    <h3 class="card-title">Masaje</h3>
-                    <span class="price">$29.00</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-
-
-          </div>
-
-        </div>
-      </div>
     </div>
-  </section>
+</div>
 
 
-  <!-- categories -->
-  <section>
-    <div class="container">
-      <div class="row align-items-end">
-        <div class="col-8 col-md-6">
-          <span class="eyebrow text-muted">Todos profesionales</span>
-          <h2>Los mas solicitados</h2>
-        </div>
-        <div class="col-4 col-md-6 text-right">
-          <a href="" class="underlined">View More</a>
-        </div>
-      </div>
-      <div class="row gutter-1">
-        <div class="col-6 col-lg-3">
-          <a href="">
-            <figure class="category category--alt">
-              <div class="equal"><span class="image"
-                  style="background-image: url(assets/images/demo/product-5.jpg)"></span></div>
-              <figcaption>Lianet</figcaption>
-            </figure>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="">
-            <figure class="category category--alt">
-              <div class="equal"><span class="image"
-                  style="background-image: url(assets/images/demo/product-6.jpg)"></span></div>
-              <figcaption>Mila</figcaption>
-            </figure>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="">
-            <figure class="category category--alt">
-              <div class="equal"><span class="image"
-                  style="background-image: url(assets/images/demo/product-3.jpg)"></span></div>
-              <figcaption>Elizabeth</figcaption>
-            </figure>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="">
-            <figure class="category category--alt">
-              <div class="equal"><span class="image"
-                  style="background-image: url(assets/images/demo/product-4.jpg)"></span></div>
-              <figcaption>Aaron</figcaption>
-            </figure>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="">
-            <figure class="category category--alt">
-              <div class="equal"><span class="image"
-                  style="background-image: url(assets/images/demo/product-1.jpg)"></span></div>
-              <figcaption>Sofia</figcaption>
-            </figure>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="">
-            <figure class="category category--alt">
-              <div class="equal"><span class="image"
-                  style="background-image: url(assets/images/demo/product-2.jpg)"></span></div>
-              <figcaption>Lola</figcaption>
-            </figure>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="">
-            <figure class="category category--alt">
-              <div class="equal"><span class="image"
-                  style="background-image: url(assets/images/demo/category-2.jpg)"></span></div>
-              <figcaption>Ruth</figcaption>
-            </figure>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="">
-            <figure class="category category--alt">
-              <div class="equal"><span class="image"
-                  style="background-image: url(assets/images/demo/category-1.jpg)"></span></div>
-              <figcaption>Claudia</figcaption>
-            </figure>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- footer -->
-  <footer class="bg-dark pb-0 text-white">
+<!-- footer -->
+<footer class="bg-dark pb-0 text-white">
     <div class="container">
       <div class="row justify-content-md-between gutter-2">
 
@@ -627,10 +445,10 @@
           <ul class="list list--horizontal">
             <li><a href="#!" class="text-hover-facebook"><i class="fs-28 icon-facebook-square-brands"></i></a></li>
             <li>
-              <a href="https://www.instagram.com/lianet_nailsstudio/" target="_blank" class="text-hover-instagram">
-                <i class="fs-28 icon-instagram-square-brands"></i>
-              </a>
-            </li>
+                <a href="https://www.instagram.com/lianet_nailsstudio/" target="_blank" class="text-hover-instagram">
+                  <i class="fs-28 icon-instagram-square-brands"></i>
+                </a>
+              </li>
             <li><a href="#!" class="text-hover-twitter"><i class="fs-28 icon-twitter-square-brands"></i></a></li>
             <li><a href="#!" class="text-hover-pinterest"><i class="fs-28 icon-pinterest-square-brands"></i></a></li>
           </ul>
@@ -673,6 +491,19 @@
 
   <script src="assets/js/vendor.min.js"></script>
   <script src="assets/js/app.js"></script>
+
+  <script>
+    document.querySelectorAll('[data-scroll]').forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    });
+</script>
+
 </body>
 
 </html>
